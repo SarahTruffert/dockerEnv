@@ -2,7 +2,7 @@ FROM mysql:latest
 
 RUN echo 'Copy table in docker entrypoint'
 
-COPY example.sql /docker-entrypoint-initdb.d
+COPY connectdb.go /docker-entrypoint-initdb.d
 
 # WORKDIR /dockerEnv
 
