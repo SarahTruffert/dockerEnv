@@ -19,3 +19,10 @@ Bonus 2 : dockerisez votre exemple de code qui intéragit avec la base de donné
 ​
 
 Bonus 3 (avancé) : utilisez un ORM (ex : SQLAlchemy) pour générer votre schéma de bases de données. Cela vous demandera un Dockerfile multi-stage (avec un conteneur qui construit votre base de données, et un autre qui récupère les informations dans une nouvelle base de données).
+
+
+
+
+COMMANDS : 
+
+docker build --tag imagesarah .
